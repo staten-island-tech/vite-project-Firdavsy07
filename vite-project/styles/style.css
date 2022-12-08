@@ -91,7 +91,7 @@ h5{
 #btn:after {
   content: '';
   position: absolute;
-  border: 1px solid #000000;
+  border: 1px solid var(--secondary);
   bottom: 4px;
   left: 4px;
   width: calc(100% - 1px);
