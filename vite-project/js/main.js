@@ -1,5 +1,3 @@
-import { valveGames } from "/js/array.js";
-
 const DOMselectors = {
   card: document.querySelector(".cardId"),
   title: document.querySelector("#title"),

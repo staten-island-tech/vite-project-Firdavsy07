@@ -68,4 +68,4 @@ const valveGames = [
     },
   },
 ];
-export { valveGames };
+export { valveGames } from ".js/main.js";
