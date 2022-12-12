@@ -1,11 +1,15 @@
+import { valveGames } from "./array";
+
 const DOMselectors = {
   card: document.querySelector(".cardId"),
   title: document.querySelector("#title"),
-  btn: document.querySelector("#btn"),
+  theme: document.querySelector(".theme"),
+  score: document.querySelector(".score"),
+  price: document.querySelector(".price"),
 };
 
-console.log(DOMselectors.btn);
-DOMselectors.btn.addEventListener("click", function () {
+console.log(DOMselectors.theme);
+DOMselectors.theme.addEventListener("click", function () {
   console.log("Success!");
   if (document.body.classList.contains("dark-mode")) {
     document.body.classList.add("light-mode");
@@ -15,4 +19,11 @@ DOMselectors.btn.addEventListener("click", function () {
     document.body.classList.add("dark-mode");
     document.body.classList.remove("light-mode");
   }
+});
+
+const price = valveGames.filter((element) => element.price < 8);
+console.log(price);
+
+DOMselectors.score.addEventListener("click", function () {
+  console.log("No money?");
 });

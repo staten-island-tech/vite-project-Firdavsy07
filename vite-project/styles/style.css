@@ -13,6 +13,10 @@ background-color: var(--primary);
 body{
     background-color: var(--primary);
 }
+
+button{
+  margin: 2rem;
+}
 :root{
 /*Font size*/
 --h1:3.815rem;
