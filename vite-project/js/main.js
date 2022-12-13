@@ -1,4 +1,4 @@
-import { valveGames } from "./array";
+import { predictions } from "./array";
 
 const DOMselectors = {
   card: document.querySelector(".cardId"),
@@ -19,10 +19,4 @@ DOMselectors.theme.addEventListener("click", function () {
     document.body.classList.add("dark-mode");
     document.body.classList.remove("light-mode");
   }
-});
-
-console.log(valveGames.filter((usd) => usd.price < 8.0));
-
-DOMselectors.score.addEventListener("click", function () {
-  console.log("No money?");
 });
