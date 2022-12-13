@@ -21,8 +21,7 @@ DOMselectors.theme.addEventListener("click", function () {
   }
 });
 
-const price = valveGames.filter((element) => element.price < 8);
-console.log(price);
+console.log(valveGames.filter((usd) => usd.price < 8.0));
 
 DOMselectors.score.addEventListener("click", function () {
   console.log("No money?");
