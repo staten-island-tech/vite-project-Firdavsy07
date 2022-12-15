@@ -3,9 +3,11 @@ import { predictions } from "./array";
 const DOMselectors = {
   card: document.querySelector(".cardId"),
   title: document.querySelector("#title"),
+  region: document.querySelector(".region"),
+  confirmed: document.querySelector(".confirmed"),
+  role: document.querySelector(".role"),
   theme: document.querySelector(".theme"),
-  score: document.querySelector(".score"),
-  price: document.querySelector(".price"),
+  main: document.querySelector(".main"),
 };
 
 console.log(DOMselectors.theme);
