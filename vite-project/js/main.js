@@ -7,8 +7,14 @@ const DOMselectors = {
   confirmed: document.querySelector(".confirmed"),
   role: document.querySelector(".role"),
   theme: document.querySelector(".theme"),
-  main: document.querySelector(".main"),
+  main: document.querySelector(".characters"),
+  button: document.querySelector("#btn"),
+  container: document.querySelector(".container"),
 };
+
+DOMselectors.button.addEventListener("click", function (card) {
+  card.preventDefault();
+});
 
 console.log(DOMselectors.theme);
 DOMselectors.theme.addEventListener("click", function () {
