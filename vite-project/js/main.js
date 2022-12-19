@@ -28,3 +28,18 @@ DOMselectors.theme.addEventListener("click", function () {
     document.body.classList.remove("light-mode");
   }
 });
+
+DOMselectors.main.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  if (document.body.classList.contains("character-div")) {
+    document.body.classList.remove("character-div");
+  } else {
+    DOMselectors.container.insertAdjacentHTML(
+      "afterend"`<div class="character-div">
+      <p></p>
+      
+      </div>`
+    );
+  }
+});

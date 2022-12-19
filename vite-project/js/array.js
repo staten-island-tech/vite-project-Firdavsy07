@@ -10,6 +10,8 @@ const predictions = [
       portrait:
         "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/06RU008-full.png/revision/latest/scale-to-width-down/1200?cb=20220826181812",
     },
+  },
+  {
     uuid: {
       characterName: "Jinx",
       predictedRole: "Zoner",
@@ -20,6 +22,8 @@ const predictions = [
       portrait:
         "https://staticg.sportskeeda.com/editor/2021/11/1cabf-16374729388237-1920.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Darius",
       predictedRole: "Grappler",
@@ -30,6 +34,8 @@ const predictions = [
       portrait:
         "https://cdn-images.win.gg/resize/w/1000/format/webp/type/progressive/fit/cover/path/wp/uploads/2021/11/Capture-15-1024x562.png",
     },
+  },
+  {
     uuid: {
       characterName: "Samira",
       predictedRole: "Rushdown",
@@ -40,6 +46,8 @@ const predictions = [
       portrait:
         "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Yasuo",
       predictedRole: "Shoto",
@@ -50,6 +58,8 @@ const predictions = [
       portrait:
         "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Illaoi",
       predictedRole: "Grappler",
@@ -60,6 +70,8 @@ const predictions = [
       portrait:
         "https://www.riotgames.com/darkroom/1120/f06c5c1432706e3bee16b0c806dcad86:2a072be4d73aa8a1724e097146656620/illaoi-2.png",
     },
+  },
+  {
     uuid: {
       characterName: "Bard",
       predictedRole: "Joke Character",
@@ -70,6 +82,8 @@ const predictions = [
       portrait:
         "https://images.contentstack.io/v3/assets/blt187521ff0727be24/bltc5f908c957931468/60ee0b9bb403be64e662778e/bard_clean_up.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Katarina",
       predictedRole: "Rushdown",
@@ -80,6 +94,8 @@ const predictions = [
       portrait:
         "https://static.wikia.nocookie.net/leagueoflegends/images/6/6b/01NX042T2-hd-full.jpg/revision/latest?cb=20191202234207",
     },
+  },
+  {
     uuid: {
       characterName: "Gangplank",
       predictedRole: "Zoner",
@@ -90,6 +106,8 @@ const predictions = [
       portrait:
         "https://static.wikia.nocookie.net/leagueoflegends/images/e/e6/02BW032-full.png/revision/latest/scale-to-width-down/1200?cb=20200428085133",
     },
+  },
+  {
     uuid: {
       characterName: "Udyr",
       predictedRole: "Stance-Swapper",
@@ -100,6 +118,8 @@ const predictions = [
       portrait:
         "https://static.wikia.nocookie.net/leagueoflegends/images/c/c8/05FR013T4-full.png/revision/latest/scale-to-width-down/2048?cb=20220214134852",
     },
+  },
+  {
     uuid: {
       characterName: "Neeko",
       predictedRole: "Mimic",
@@ -110,6 +130,8 @@ const predictions = [
       portrait:
         "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Azir",
       predictedRole: "Zoner",
@@ -120,6 +142,8 @@ const predictions = [
       portrait:
         "https://media.tenor.com/PdiceHCmaloAAAAd/azir-default-dance.gif",
     },
+  },
+  {
     uuid: {
       characterName: "Gnar",
       predictedRole: "Stance-Swapper",
@@ -130,16 +154,20 @@ const predictions = [
       portrait:
         "https://static.wikia.nocookie.net/leagueoflegends/images/a/a7/05BC161T1-full.png/revision/latest/scale-to-width-down/2048?cb=20220216052133",
     },
+  },
+  {
     uuid: {
       characterName: "Fiora",
       predictedRole: "Rushdown",
-      confirmed: "THANK GOD NO",
+      confirmed: "No",
       region: "Demacia",
       description:
         "The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and political cunning as she is for the speed of her rapier. Born to the noble Laurent family in Demacia, Fiora claimed the household from her father in the wake of a scandal that nearly destroyed them—now she is dedicated to restoring the Laurents to their rightful place among the great and good of the kingdom.",
       portrait:
         "https://www.wallpapers13.com/wp-content/uploads/2017/05/League-of-Legends-Classic-Fiora-Splash-Art-Artwork-HD-Wallpaper-3840x2160.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Ahri",
       predictedRole: "Rushdown",
@@ -150,6 +178,8 @@ const predictions = [
       portrait:
         "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15971658/3909902-rxa_projectl.jpg",
     },
+  },
+  {
     uuid: {
       characterName: "Pantheon",
       predictedRole: "Shoto",
