@@ -193,4 +193,5 @@ const predictions = [
   },
 ];
 console.log(predictions);
+
 export { predictions };
