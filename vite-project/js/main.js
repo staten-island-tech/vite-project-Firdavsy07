@@ -7,7 +7,7 @@ const DOMselectors = {
   confirmed: document.querySelector(".confirmed"),
   role: document.querySelector(".role"),
   theme: document.querySelector(".theme"),
-  main: document.querySelector(".characters"),
+  main: document.querySelector(".character"),
   button: document.querySelector("#btn"),
   container: document.querySelector(".container"),
 };
@@ -31,26 +31,20 @@ DOMselectors.theme.addEventListener("click", function () {
 
 DOMselectors.main.addEventListener("click", function (event) {
   event.preventDefault();
-  console.log("working");
-
-  DOMselectors.container.insertAdjacentHTML(
-    "afterend",
-    `<div class="character-div">
-      <p></p>
-      
-      </div>`
-  );
-});
-DOMselectors.main.addEventListener("click", function (event) {
-  event.preventDefault();
   predictions.forEach((predictions, {}) => {
     DOMselectors.container.insertAdjacentHTML(
       "afterbegin",
-      `<div class="noxus">
-      <p class="announce-region">
-    
-      </p>
+      `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
       </div>
+
 `
     );
   });

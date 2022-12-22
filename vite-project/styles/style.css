@@ -13,7 +13,16 @@ background-color: var(--primary);
 body{
     background-color: var(--primary);
 }
-
+img{
+  box-sizing: border-box;
+  border: solid var(--secondary) 2px;
+  height: auto;
+  width: auto;
+  max-height: 75% ;
+  max-width: 75%;
+  object-fit:fill;
+  
+}
 .character-div{
   border: solid var(--secondary);
 }
@@ -151,4 +160,27 @@ h5{
     padding: .75rem 3rem;
     font-size: 1.25rem;
   }
+}
+
+.region-showcase{
+  display: flex;
+  justify-content: space-around;
+     flex-direction: row;
+ 
+}
+.characters{
+
+  color: var(--secondary);
+  background-color: var(--primary);
+  align-items: center;
+  text-align: center;
+  border: var(--secondary) solid 1px;
+  border-width: 3px;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 2% ;
+  height: 70rem;
+  width: 70rem;
+  box-shadow: 1rem 1rem 1rem grey;
+
 }
