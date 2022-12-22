@@ -41,17 +41,17 @@ DOMselectors.main.addEventListener("click", function (event) {
       </div>`
   );
 });
-
-predictions.forEach((predictions, {}) => {
-  DOMselectors.container.insertAdjacentHTML(
-    `"afterbegin",
-      <div class="noxus">
+DOMselectors.main.addEventListener("click", function (event) {
+  event.preventDefault();
+  predictions.forEach((predictions, {}) => {
+    DOMselectors.container.insertAdjacentHTML(
+      "afterbegin",
+      `<div class="noxus">
       <p class="announce-region">
-      <img src="${predictions.uuid.portrait.includes(
-        "https://static.wikia.nocookie.net/leagueoflegends/images/6/6b/01NX042T2-hd-full.jpg/revision/latest?cb=20191202234207"
-      )}">
+    
       </p>
       </div>
 `
-  );
+    );
+  });
 });
