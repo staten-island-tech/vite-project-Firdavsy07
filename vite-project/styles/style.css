@@ -18,8 +18,8 @@ img{
   border: solid var(--secondary) 2px;
   height: auto;
   width: auto;
-  max-height: 75% ;
-  max-width: 75%;
+  max-height: 50rem ;
+  max-width: 50rem;
   object-fit:fill;
   
 }
