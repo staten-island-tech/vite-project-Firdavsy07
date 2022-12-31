@@ -49,3 +49,66 @@ DOMselectors.main.addEventListener("click", function (event) {
     );
   });
 });
+
+DOMselectors.region.addEventListener("click", function (event) {
+  event.preventDefault();
+  predictions.forEach((predictions, {}) => {
+    DOMselectors.container.insertAdjacentHTML(
+      "afterbegin",
+      `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+    );
+  });
+});
+
+DOMselectors.role.addEventListener("click", function (event) {
+  event.preventDefault();
+  predictions.forEach((predictions, {}) => {
+    DOMselectors.container.insertAdjacentHTML(
+      "afterbegin",
+      `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+    );
+  });
+});
+
+DOMselectors.confirmed.addEventListener("click", function (event) {
+  event.preventDefault();
+  predictions.forEach((predictions, {}) => {
+    DOMselectors.container.insertAdjacentHTML(
+      "afterbegin",
+      `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+    );
+  });
+});
