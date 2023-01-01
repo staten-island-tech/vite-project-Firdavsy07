@@ -12,7 +12,7 @@ const DOMselectors = {
   container: document.querySelector(".container"),
 };
 
-function remove() {
+function destroy() {
   const characters = document.querySelectorAll(".characters");
   characters.forEach((character) => {
     character.remove();
@@ -21,7 +21,6 @@ function remove() {
 
 DOMselectors.button.addEventListener("click", function (card) {
   card.preventDefault();
-  remove();
 });
 
 console.log(DOMselectors.theme);
@@ -38,7 +37,7 @@ DOMselectors.theme.addEventListener("click", function () {
 });
 
 DOMselectors.main.addEventListener("click", function (event) {
-  event.preventDefault();
+  destroy();
   predictions.forEach((predictions, {}) => {
     DOMselectors.container.insertAdjacentHTML(
       "afterbegin",
@@ -59,7 +58,7 @@ DOMselectors.main.addEventListener("click", function (event) {
 });
 
 DOMselectors.region.addEventListener("click", function (event) {
-  event.preventDefault();
+  destroy();
   predictions.forEach((predictions, {}) => {
     DOMselectors.container.insertAdjacentHTML(
       "afterbegin",
@@ -80,7 +79,7 @@ DOMselectors.region.addEventListener("click", function (event) {
 });
 
 DOMselectors.role.addEventListener("click", function (event) {
-  event.preventDefault();
+  destroy();
   predictions.forEach((predictions, {}) => {
     DOMselectors.container.insertAdjacentHTML(
       "afterbegin",
@@ -101,7 +100,7 @@ DOMselectors.role.addEventListener("click", function (event) {
 });
 
 DOMselectors.confirmed.addEventListener("click", function (event) {
-  event.preventDefault();
+  destroy();
   predictions.forEach((predictions, {}) => {
     DOMselectors.container.insertAdjacentHTML(
       "afterbegin",
