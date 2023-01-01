@@ -12,8 +12,16 @@ const DOMselectors = {
   container: document.querySelector(".container"),
 };
 
+function remove() {
+  const characters = document.querySelectorAll(".characters");
+  characters.forEach((character) => {
+    character.remove();
+  });
+}
+
 DOMselectors.button.addEventListener("click", function (card) {
   card.preventDefault();
+  remove();
 });
 
 console.log(DOMselectors.theme);
