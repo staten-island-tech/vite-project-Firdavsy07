@@ -36,6 +36,7 @@ DOMselectors.theme.addEventListener("click", function () {
   }
 });
 
+/*Main*/
 DOMselectors.main.addEventListener("click", function (event) {
   destroy();
   predictions.forEach((predictions, {}) => {
@@ -57,6 +58,7 @@ DOMselectors.main.addEventListener("click", function (event) {
   });
 });
 
+/*Region*/
 DOMselectors.region.addEventListener("click", function (event) {
   destroy();
   predictions
@@ -78,14 +80,13 @@ DOMselectors.region.addEventListener("click", function (event) {
 `
       );
     });
-});
 
-DOMselectors.role.addEventListener("click", function (event) {
-  destroy();
-  predictions.forEach((predictions, {}) => {
-    DOMselectors.container.insertAdjacentHTML(
-      "afterbegin",
-      `
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Targon"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
       <div class="characters">
       <h2 class="announce-region">
       ${predictions.uuid.region}
@@ -97,8 +98,186 @@ DOMselectors.role.addEventListener("click", function (event) {
       </div>
 
 `
-    );
-  });
+      );
+    });
+
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("PNZ"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Runeterra"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Ixtal"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Bilgewater"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Freljord"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Demacia"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Ionia"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Shurima"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
+});
+
+/*Role*/
+DOMselectors.role.addEventListener("click", function (event) {
+  destroy();
+  predictions
+    .filter((prediction) => prediction.uuid.predictedRole.includes("Rushdown"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
+      <div class="characters">
+      <h2 class="announce-region">
+      ${predictions.uuid.region}
+      </h2>
+      <h4>${predictions.uuid.characterName}</h4>
+      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
+      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <img src="${predictions.uuid.portrait}">
+      </div>
+
+`
+      );
+    });
 });
 
 DOMselectors.confirmed.addEventListener("click", function (event) {
