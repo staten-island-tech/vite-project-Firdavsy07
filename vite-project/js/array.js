@@ -74,7 +74,7 @@ const predictions = [
   {
     uuid: {
       characterName: "Bard",
-      predictedRole: "Joke Character",
+      predictedRole: "Joke",
       confirmed: "No",
       region: "Runeterra",
       description:
