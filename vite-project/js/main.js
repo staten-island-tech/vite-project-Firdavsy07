@@ -59,10 +59,12 @@ DOMselectors.main.addEventListener("click", function (event) {
 
 DOMselectors.region.addEventListener("click", function (event) {
   destroy();
-  predictions.forEach((predictions, {}) => {
-    DOMselectors.container.insertAdjacentHTML(
-      "afterbegin",
-      `
+  predictions
+    .filter((prediction) => prediction.uuid.region.includes("Noxus"))
+    .forEach((predictions, {}) => {
+      DOMselectors.container.insertAdjacentHTML(
+        "afterbegin",
+        `
       <div class="characters">
       <h2 class="announce-region">
       ${predictions.uuid.region}
@@ -74,8 +76,8 @@ DOMselectors.region.addEventListener("click", function (event) {
       </div>
 
 `
-    );
-  });
+      );
+    });
 });
 
 DOMselectors.role.addEventListener("click", function (event) {
