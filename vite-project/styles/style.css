@@ -12,10 +12,14 @@ color: var(--secondary);
 .main{
  display: flex;
  justify-content: center;  
-background-color: var(--primary);
 }
 body{
-    background-color: var(--primary);
+  background-image:
+  linear-gradient(45deg,
+    rgba(245,70,66, 0.75),
+    rgba(8,83,156, 0.75)), url(
+'https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg');
+
 }
 img{
   box-sizing: border-box;
@@ -104,7 +108,7 @@ h5{
 
 .light-mode{
 --primary: var(--white);
---secondary: var(--grey);
+--secondary: var(--black);
 }
 .dark-mode{
 --primary: var(--black);
