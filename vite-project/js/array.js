@@ -8,7 +8,7 @@ const predictions = [
       description:
         "Runeterra's greatest weapons master, Jax is the only survivor of the Kohari—champions sworn to the defense of Icathia. But when the Void was unleashed against the Shuriman empire's Ascended Host, Icathia was destroyed, leaving Jax without a home or purpose. He gathered the “last light of Icathia”, a symbol of his hope to one day defeat the Void, and now travels the world, searching for warriors strong enough to face the coming darkness by his side.",
       portrait:
-        "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/06RU008-full.png/revision/latest/scale-to-width-down/1200?cb=20220826181812",
+        "https://masteringruneterra.com/wp-content/uploads/2022/09/Jax-level-2.webp",
     },
   },
   {
@@ -92,7 +92,7 @@ const predictions = [
       description:
         "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.",
       portrait:
-        "https://static.wikia.nocookie.net/leagueoflegends/images/6/6b/01NX042T2-hd-full.jpg/revision/latest?cb=20191202234207",
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
     },
   },
   {
@@ -104,7 +104,7 @@ const predictions = [
       description:
         "As unpredictable as he is brutal, the dethroned reaver king Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost.",
       portrait:
-        "https://static.wikia.nocookie.net/leagueoflegends/images/e/e6/02BW032-full.png/revision/latest/scale-to-width-down/1200?cb=20200428085133",
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_0.jpg",
     },
   },
   {
@@ -116,7 +116,7 @@ const predictions = [
       description:
         "The most powerful spirit walker alive, Udyr communes with all the spirits of the Freljord, whether by empathically understanding their needs, or by channeling and transforming their ethereal energy into his own primal fighting style. He seeks balance within, so that his mind does not get lost amidst others, but he also seeks balance without—for the Freljord's mystical landscape can only thrive with the growth that comes from conflict and struggle, and Udyr knows that sacrifices must be made to keep peaceful stagnance at bay.",
       portrait:
-        "https://static.wikia.nocookie.net/leagueoflegends/images/c/c8/05FR013T4-full.png/revision/latest/scale-to-width-down/2048?cb=20220214134852",
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
     },
   },
   {
@@ -152,7 +152,7 @@ const predictions = [
       description:
         "Gnar is an excitable yordle whose playful antics can erupt into a toddler’s outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed world he sees as exotic and wondrous. Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang... or an uprooted tree.",
       portrait:
-        "https://static.wikia.nocookie.net/leagueoflegends/images/a/a7/05BC161T1-full.png/revision/latest/scale-to-width-down/2048?cb=20220216052133",
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
     },
   },
   {

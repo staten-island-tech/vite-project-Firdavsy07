@@ -68,12 +68,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="noxus">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -88,12 +86,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="targon">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -108,12 +104,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="pnz">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -128,12 +122,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="rune">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -147,12 +139,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="ixtal">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h4>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -166,12 +156,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="bilge">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -185,12 +173,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="frel">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -204,12 +190,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="demacia">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -223,12 +207,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="ionia">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -242,12 +224,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="shurima">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h4>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -261,12 +241,10 @@ DOMselectors.region.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
+      <h2 class="bandle">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -285,12 +263,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -304,12 +278,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -323,12 +293,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -342,12 +308,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -363,12 +325,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -382,12 +340,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -401,12 +355,8 @@ DOMselectors.role.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h4>
+      <h2>Role Prediction:${predictions.uuid.predictedRole}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -425,12 +375,8 @@ DOMselectors.confirmed.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2 class="noxus">Confirmed:${predictions.uuid.confirmed}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 
@@ -444,12 +390,8 @@ DOMselectors.confirmed.addEventListener("click", function (event) {
         "afterbegin",
         `
       <div class="characters">
-      <h2 class="announce-region">
-      ${predictions.uuid.region}
-      </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h2>${predictions.uuid.characterName}</h2>
+      <h2 class="ixtal">Confirmed:${predictions.uuid.confirmed}</h2>
       <img src="${predictions.uuid.portrait}">
       </div>
 

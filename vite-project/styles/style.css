@@ -5,6 +5,10 @@ html, body {
 text-align:center ;
 color: var(--secondary);
 }
+.organized{
+  display: flex;
+  justify-content: center;
+}
 .main{
  display: flex;
  justify-content: center;  
@@ -25,6 +29,41 @@ img{
 }
 .character-div{
   border: solid var(--secondary);
+  margin: 15px
+
+}
+.demacia{
+  color:grey
+}
+.bilge{
+  color: blue;
+}
+.noxus{
+color:red
+}
+.ionia{
+  color:pink
+}
+.targon{
+  color:purple
+}
+.shurima{
+  color: yellow
+}
+.bandle{
+  color:yellowgreen
+}
+.rune{
+color: goldenrod
+}
+.pnz{
+  color: burlywood
+}
+.ixtal{
+  color: green
+}
+.frel{
+  color: lightblue
 }
 button{
   margin: 2rem;
@@ -162,12 +201,8 @@ h5{
   }
 }
 
-.region-showcase{
-  display: flex;
-  justify-content: space-around;
-     flex-direction: row;
- 
-}
+
+
 .characters{
 
   color: var(--secondary);
