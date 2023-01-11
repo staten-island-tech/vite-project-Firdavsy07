@@ -51,7 +51,7 @@ DOMselectors.main.addEventListener("click", function (event) {
       <h3>Role Prediction:${predictions.uuid.predictedRole}</h3>
       <h3>Confirmed?${predictions.uuid.confirmed}</h3>
       <img src="${predictions.uuid.portrait}">
-      <h4 class="rune">"${predictions.uuid.description}"</h4>
+      <h4 class="char">"${predictions.uuid.description}"</h4>
       </div>
 
 `

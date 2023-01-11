@@ -22,7 +22,7 @@ img{
   border: solid var(--secondary) 2px;
   height: auto;
   width: auto;
-  max-height: 50rem ;
+  max-height: 30rem ;
   max-width: 50rem;
   object-fit:fill;
   
@@ -55,6 +55,11 @@ color:red
 }
 .rune{
 color: goldenrod
+}
+.char{
+  background-color: #8B4000;
+  color: goldenrod
+  
 }
 .pnz{
   color: burlywood
