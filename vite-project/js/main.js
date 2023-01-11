@@ -47,10 +47,11 @@ DOMselectors.main.addEventListener("click", function (event) {
       <h2 class="announce-region">
       ${predictions.uuid.region}
       </h2>
-      <h4>${predictions.uuid.characterName}</h4>
-      <h4>Role Prediction:${predictions.uuid.predictedRole}</h4>
-      <h4>Confirmed?${predictions.uuid.confirmed}</h4>
+      <h3>${predictions.uuid.characterName}</h3>
+      <h3>Role Prediction:${predictions.uuid.predictedRole}</h3>
+      <h3>Confirmed?${predictions.uuid.confirmed}</h3>
       <img src="${predictions.uuid.portrait}">
+      <h4 class="rune">"${predictions.uuid.description}"</h4>
       </div>
 
 `
